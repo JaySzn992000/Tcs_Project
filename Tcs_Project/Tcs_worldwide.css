@@ -1,0 +1,526 @@
+
+
+body{
+    background-color: black;
+  }
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  nav{
+    background-color:#202424;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li{
+    padding: 11px;
+    list-style-type: none;
+  }
+  
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav div:nth-child(2) ul i {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;  padding: 11px;
+  }
+  
+  #sub-menu1{
+    position: absolute;
+    background-color :#202424;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 487px;
+    margin-top: 17px;
+    display: none;
+    z-index: 999;
+  }
+  
+  #hover-me1{
+    padding-bottom: 17px;
+  }
+  
+  #hover-me1:hover #sub-menu1{
+    display: flex;
+  }
+  
+  #sub-menu1 ul{
+    display: block;
+    padding-left: 10%;
+  }
+  
+  
+  #sub-menu1 ul li{
+    margin-top: 24px;
+    font-size: 17px;
+  }
+  
+  #sub-menu1 ul li:hover{
+    margin-top: 24px;
+    text-decoration: underline;
+  }
+  
+  
+  #span1{
+    position: absolute;
+    margin-left: 9em;
+  }
+  
+  #span1{
+    font-size: 17px;
+    line-height: 42px;
+    color: white;
+    display: none;
+    margin-top: -30px;
+    padding-left: 7%;
+  }
+  
+  #span1 button{
+    background-color: transparent;
+    width: 150px;
+    height: 44px;
+    border-radius: 32px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 37px;
+    cursor: pointer;
+  }
+  
+  #span1 button:hover{
+    transition: 1s;
+    scale: 1.1;
+  }
+  
+  #over-view-hover:hover #span1{
+    display: block;
+  }
+  
+  
+  #span2{
+    position: absolute;
+    display: flex;
+    margin-left: 17%;
+    margin-top: -120px;
+    color: white;
+    display: none;
+  }
+  
+  #sub-menu2:hover #span2{
+    display: flex;
+  }
+  
+  #span3{
+    position: absolute;
+    display: flex;
+    margin-left: 17%;
+    margin-top: -187px;
+    color: white;
+    display: none;
+  }
+  
+  #sub-menu3:hover #span3{
+    display: flex;
+  }
+  
+  
+  #span4{
+    position: absolute;
+    display: flex;
+    margin-top: -255px;
+    margin-left: 17%;
+    color: white;
+    display: none;
+  }
+  
+  #sub-menu4:hover #span4{
+    display: flex;
+  }
+  /* --------------------------------------------------------------------- */
+  
+  #--section-bg-{
+    
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("https://s7ap1.scene7.com/is/image/TCSCOMprod/worldwide-hub-hero-banner-Web?wid=1100&hei=434&dpr=off");
+    width: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    padding: 37px;
+    background-size: cover;
+  }
+  
+  #--section-bg- p{
+    font-size: 23px;
+    line-height: 47px;
+    color: white;
+    margin-top: 17px;
+  }
+  
+  
+  #--section-bg- h1{
+    font-size: 43px;
+    color: white;
+  }
+  
+  
+  
+  #--section-bg- button{
+    width: 177px;
+    height: 44px;
+    background-color: hotpink;
+    border: none;
+    color: white;
+    margin-top: 77px;
+    cursor: pointer;
+    border-radius: 19px;
+  }
+  
+  #--section-bg- button:hover{
+    background-color : orangered;
+    scale: 1.1;
+    transition: 1s;
+  }
+  /* -------------------------------------------------------------------- */
+  
+  #--section-s-bg{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+  }
+  
+  #--section-s-bg img{
+    width: 500px;
+  }
+  
+  #--section-s-bg span{
+    background-color: white;
+    padding: 37px;
+    height: 477px;
+    margin-top: 47px;
+  }
+  
+  #--section-s-bg span p{
+    margin-top: 37px;
+  }
+  
+  
+  #--section-s-bg span h1{
+    margin-top: 27px;
+    line-height: 36px;
+  }
+  /* ------------------------------------------------------------------------ */
+  
+  #--second-col-{
+  display: flex;
+  margin-top: 127px;
+  }
+  
+  #--second-col- img{
+  width: 60%;
+  }
+  
+  #--second-col- span{
+  width: 60%;
+  height: 60vh;
+  background-color:#202424;
+  padding: 27px;
+  }
+  
+  #--second-col- span  h1{
+  color: white;
+  }
+  
+  #--second-col- span  p{
+  color: white;
+  line-height: 34px;
+  margin-top: 17px;
+  margin-bottom: 27px;
+  }
+  
+  #--second-col- span  input{
+  color: white;
+  border: none;
+  background-color: #202424;
+  border-bottom: 1px solid white;
+  }
+  
+  
+  #--second-col- span  button{
+  color: white;
+  border: none;
+  background-color: hotpink;
+  width: 97px;
+  height: 31px;
+  border-radius: 17px;
+  outline: none;
+  margin-left: 10px;
+  }
+  
+  
+  #--second-col- span  button:hover{
+  background-color: orangered;
+  width: 97px;
+  height: 31px;
+  border-radius: 17px;
+  cursor: pointer;
+  scale: 1.1;
+  transition: 1s;
+  }
+  
+  
+  
+  
+  
+  
+  
+  #--second-col- span  input::placeholder{
+  color: white;
+  }
+  /* --------------------------------------------------------------------- */
+  
+  #--third-col-{
+    display: flex;
+    justify-content: center;
+    padding: 37px;
+    margin-top: 57px;
+  }
+  
+  #--third-col- span{
+    width: 500px;
+    margin-right: 79px;
+  }
+  
+  
+  #--third-col- span h1{
+    color: white;
+    margin-bottom: 27px;
+  }
+  
+  #--third-col- span p{
+    color: white;
+    margin-bottom: 27px;
+    line-height: 37px;
+  }
+  
+  #--third-col- iframe{
+    color: white;
+  }
+  
+  
+  /* ----------------------------------------------------------------------- */
+  
+  #--last-col-{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    margin-top: 27px;
+    margin-bottom: 71px;
+  }
+  
+  
+  #--last-col- ul{
+    margin-right: 67px;
+    margin-left: 81px;
+  }
+  
+  
+  #--last-col- ul li{
+  margin-top: 41px;
+  }
+  
+  
+  #--last-col- ul li a{
+  text-decoration: none;
+  color: white;
+  }
+  
+  #--last-col- ul li a:hover{
+  text-decoration: underline;
+  }
+  
+  
+  
+  
+  #--last-col- ul h3{
+    color: white;
+  }
+  
+  /* ------------------------------------------------------------------- */
+  
+  
+  
+  @media (max-width: 480px){
+  
+    nav{
+      background-color: hotpink;
+      width: 100%;
+    }
+  
+    nav div:first-child li{
+      display: none;
+    }
+  
+    nav div:nth-child(2) li{
+      display: none;
+    }
+  
+  /* ---------------------------------------------------------- */
+  
+  #--last-col-{
+    flex-direction: column;
+    margin-top: 858px;
+    margin-left: -27px;
+    margin-bottom: 71px;
+  }
+  
+  #--section-bg-{
+    height: auto;
+  }
+  
+  #--section-s-bg{
+    flex-direction: column;
+  }
+  
+  #--section-s-bg span{
+    width: 100%;
+  }
+  
+  #--section-s-bg img{
+    width: 100%;
+  }
+  
+  #--second-col-{
+    flex-direction: column;
+  }
+  
+  #--second-col- img{
+    width: 100%;
+    height: 40vh;
+  }
+  
+  #--second-col- span{
+    width: 100%;
+    height: auto;
+    margin-top: 47px;
+  }
+  
+  
+  #--second-col- button{
+    margin-top: 27px;
+  }
+  
+  #--third-col-{
+    flex-direction: column;
+  }
+  #--third-col- span{
+    width: 100%;
+  }
+  #--third-col- iframe{
+    width: 100%;
+  }
+  
+  #--last-col-{
+    margin-top: 9px;
+  }
+  
+  }
+  /* ------------------------------------------------------------------------- */
+  
+  
+  
+  @media (max-width: 768px){
+  
+  nav{
+    background-color: hotpink;
+    width: 100%;
+  }
+  
+  nav div:first-child li{
+    display: none;
+  }
+  
+  nav div:nth-child(2) li{
+    display: none;
+  }
+  
+  /* ---------------------------------------------------------- */
+  
+  #--last-col-{
+  flex-direction: column;
+  margin-top: 858px;
+  margin-left: -27px;
+  margin-bottom: 71px;
+  }
+  
+  #--section-bg-{
+  height: auto;
+  }
+  
+  #--section-s-bg{
+  flex-direction: column;
+  }
+  
+  #--section-s-bg span{
+  width: 100%;
+  }
+  
+  #--section-s-bg img{
+  width: 100%;
+  }
+  
+  #--second-col-{
+  flex-direction: column;
+  }
+  
+  #--second-col- img{
+  width: 100%;
+  height: 40vh;
+  }
+  
+  #--second-col- span{
+  width: 100%;
+  height: auto;
+  margin-top: 47px;
+  }
+  
+  
+  #--second-col- button{
+  margin-top: 27px;
+  }
+  
+  #--third-col-{
+  flex-direction: column;
+  }
+  #--third-col- span{
+  width: 100%;
+  }
+  #--third-col- iframe{
+  width: 100%;
+  }
+  
+  #--last-col-{
+  margin-top: 9px;
+  }
+  
+  }
+  
+  
+  
+  
